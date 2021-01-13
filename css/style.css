@@ -1,0 +1,53 @@
+div, label, div, input, button {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #0F1C3A;
+}
+
+@media only screen and (max-width: 320px) {
+    h1 {
+        margin-top: 0 !important;
+        font-size: 3.1em !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        text-align: center !important;
+    }
+
+    h1 {
+        margin-top: 0 !important;
+        font-size: 2.8em !important;
+    }
+
+    h2 {
+        font-size: 1.4em !important;
+    }
+
+    #avatar {
+        padding-bottom: 4px !important;
+    }
+
+    #text {
+        padding-top: 4px !important;
+    }
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 4em;
+}
+
+.button {
+    background-color: #0F1C3A !important;
+    color: white !important;
+}
+
+.button:hover {
+    transition: 0.3s;
+    background-color: #2050A3 !important;
+}
+
+p {
+    font-size: 16px !important;
+}
